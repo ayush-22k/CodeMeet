@@ -1,2 +1,5 @@
-**/node_modules
-**/.env
+# Ignore node_modules folders anywhere
+**/node_modules/
+
+# Ignore environment files anywhere (including .env.local, .env.development, etc.)
+**/.env*
